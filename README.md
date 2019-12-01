@@ -15,3 +15,12 @@ There is a total of 454,000 possible names.
 227000 possible girl names.
 
 View the Minetest forum post here [here]()
+
+
+Command | Action
+------------ | -------------
+/change | Shows the real_name gender choice formspec to yourself
+/change <player> | Shows the real_name gender choice formspec to the chosen player
+/change <player> <First name> <Last name> | Changes the chosen players name
+  
+ All of the above require the 'change_name' priv
