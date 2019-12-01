@@ -22,7 +22,7 @@ View the Minetest forum post here [here](https://forum.minetest.net/viewtopic.ph
 Command | Action
 ------------ | -------------
 /change | Shows the real_name gender choice formspec to yourself
-/change <player> | Shows the real_name gender choice formspec to the chosen player
-/change <player> <First name> <Last name> | Changes the chosen players name
+/change [player] | Shows the real_name gender choice formspec to the chosen player
+/change [player] [First name] [Last name] | Changes the chosen players name
   
  All of the above require the 'change_name' priv
