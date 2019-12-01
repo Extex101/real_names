@@ -16,7 +16,7 @@ There is a total of 454,000 possible names.
 227000 possible boy names.
 227000 possible girl names.
 
-View the Minetest forum post here [here]()
+View the Minetest forum post here [here](https://forum.minetest.net/viewtopic.php?f=9&t=23729)
 
 
 Command | Action
