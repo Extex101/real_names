@@ -19,7 +19,7 @@ dofile(rn.path.."/names.lua")--Load list of real names
 dofile(rn.path.."/functions.lua")--Load the functions used in the mod
 dofile(rn.path.."/commands.lua")--Load the Commands
 
-minetest.register_on_joinplayer(function(player)
+minetest.register_on_newplayer(function(player)
 	local name = player:get_player_name()
 	minetest.show_formspec(name, "real_names:form", rn.form)
 end)
