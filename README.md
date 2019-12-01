@@ -7,7 +7,9 @@ Example:
 ![Screenshot](https://github.com/Extex101/real_names/blob/master/screenshot.png)
 
 Sam has joined the game for the dirst time, under the name of 'Jayce Carpenter'
+
 or
+
 Sam has joined the game for the dirst time, under the name of 'Samantha Collins'
 
 There is a total of 454,000 possible names.
