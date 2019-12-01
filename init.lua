@@ -21,7 +21,7 @@ dofile(rn.path.."/commands.lua")--Load the Commands
 
 minetest.register_on_joinplayer(function(player)
 	local name = player:get_player_name()
-	if not rn.data:get_string(name) then
+	if rn.data:get_string(name) == (nil or "") then
 		minetest.show_formspec(name, "real_names:form", rn.form)
 	end
 end)
