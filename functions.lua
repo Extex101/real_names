@@ -1,4 +1,3 @@
-
 rn.functionsM = function(player)
 	local realName = 
 		rn.firstnames_M[
@@ -7,7 +6,7 @@ rn.functionsM = function(player)
 			math.random(1,rn.last_names_length)]
 	
 	local name = player:get_player_name()
-	if not rn.data:get_string(name) then
+	if rn.data:get_string(name) == (nil or "") then
 		minetest.chat_send_all(name.. " has joined for the first time under the name of '"..realName.."'")
 	else 
 		minetest.chat_send_all(name.. "'s new name is: '"..realName.."'")
@@ -23,7 +22,7 @@ rn.functionsF = function(player)
 	
 	local name = player:get_player_name()
 	
-	if not rn.data:get_string(name) then
+	if rn.data:get_string(name) == (nil or "") then
 		minetest.chat_send_all(name.. " has joined for the first time under the name of '"..realName.."'")
 	else 
 		minetest.chat_send_all(name.. "'s new name is: '"..realName.."'")
